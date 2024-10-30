@@ -24,4 +24,8 @@ public class classes {
             return false;
         }
     }
+    
+    public static boolean negation(boolean a) {
+        return !a;
+    }
 }
