@@ -8,14 +8,14 @@ public class or {
             boolean[] a = new boolean[count];
             boolean [] b = new boolean[count];
             for (int i=0; i<count; i++) {
-                System.out.print("enter true/false for a: ");
+                System.out.print("enter true/false for "+ (i+1) + "a: ");
                 a[i] = input.nextBoolean();
-                System.out.print("enter true/false for b: ");
+                System.out.print("enter true/false for " + (i+1) + "b: ");
                 b[i] = input.nextBoolean();
             }
             input.close();
             for (int i=0; i<a.length; i++) {
-                System.out.println(classes.or(a[i], b[i]));
+                System.out.println("formula: ("+a[i]+" V "+b[i] + ") " + " the " + (i+1)+ "aV" +  + (i+1)+"b Is: " + classes.or(a[i], b[i]));
             }
 
         } catch (java.util.InputMismatchException e) {
