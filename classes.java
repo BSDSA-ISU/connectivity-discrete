@@ -2,7 +2,7 @@ public class classes {
 
 
     public static void BadUser() {
-        System.out.println("You're officially an asshole");
+        System.out.println("Wrong Instruction");
     }
 
     public static boolean or(boolean a, boolean b) {
