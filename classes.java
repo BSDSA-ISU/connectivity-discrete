@@ -1,5 +1,12 @@
 public class classes {
 
+    public static boolean and(boolean a, boolean b) {
+        if (a && b) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
     public static void BadUser() {
         System.out.println("Wrong Instruction");
