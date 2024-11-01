@@ -1,4 +1,6 @@
 package lib;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 
 public class classes {
 
@@ -41,8 +43,16 @@ public class classes {
     }
 
     public static void BadUser() {
-        System.out.print("Loser");
-        System.exit(1);
+        JLabel label = new JLabel();
+        label.setText("bad user Detected!");
+        label.setSize(999, 999);
+
+        JFrame frame = new JFrame("Stupid User");
+        frame.setSize(420, 420);
+        frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        frame.add(label);
+        frame.setVisible(true);
     }
 
 }
