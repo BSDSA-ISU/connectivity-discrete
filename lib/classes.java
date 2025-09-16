@@ -4,6 +4,7 @@ import javax.swing.JLabel;
 
 public class classes {
 
+    // if then method. if b is true returns true and so on
     public static boolean IfThen(boolean a, boolean b) {
         if (b) {
             return true;
@@ -14,6 +15,7 @@ public class classes {
         }
     }
 
+    // if both true or both false. returns true
     public static boolean IfAndOnlyIf(boolean a, boolean b) {
         if (a == b) {
             return true;
@@ -22,6 +24,7 @@ public class classes {
         }
     }
 
+    // if b and is true then it returns true. else it is false like false and false = false
     public static boolean and(boolean a, boolean b) {
         if (a && b) {
             return true;
@@ -30,6 +33,7 @@ public class classes {
         }
     }
 
+    // or method. if a or b is true then it returns true
     public static boolean or(boolean a, boolean b) {
         if (a || b) {
             return true;
@@ -37,7 +41,8 @@ public class classes {
             return false;
         }
     }
-    
+
+    // reverses a. example if a is true it became false and false to true
     public static boolean negation(boolean a) {
         return !a;
     }
